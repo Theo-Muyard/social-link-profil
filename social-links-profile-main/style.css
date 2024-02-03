@@ -1,0 +1,87 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'specimen', sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+img {
+  margin-bottom: 40px;
+  border-radius: 50%;
+}
+
+h1, p, li {
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 50;
+  margin-bottom: 20px;
+}
+
+
+main {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.profil {
+  padding: 50px 10px 50px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 20px;
+  width: 38%;
+}
+
+li a {
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-weight:600;
+  font-size: 18px;
+}
+/* rgb(69, 75, 75) */
+li {
+  line-height: 200%;
+  list-style: none;
+  line-height-step: 10px;
+  margin: 15px;
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+  padding: 15px 150px 15px 150px;
+  border-radius: 10px;
+}
+
+li:hover {
+  a { 
+    color: hsl(0, 0%, 8%); 
+  } 
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
